@@ -19,21 +19,23 @@ export default {
     },
   },
 
-  // decorators: [
-  // (Story: any) => {
-  //   return (
-  //     <div
-  //       style={{
-  //         padding: "20px",
-  //         background: "red",
-  //         borderRadius: "8px",
-  //       }}
-  //     >
-  //       <Story />
-  //     </div>
-  //   );
-  // },
-  // ],
+  decorators: [
+    (Story: any) => {
+      return (
+        <div
+          style={{
+            padding: "20px",
+            background: "blue",
+            borderRadius: "8px",
+          }}
+        >
+          <span>inner decorator</span>
+          <br />
+          <Story />
+        </div>
+      );
+    },
+  ],
 };
 
 export const Default = {

@@ -6,9 +6,11 @@ export const withBackgroundColor: Decorator = (Story: any) => {
       style={{
         padding: "20px",
         background: "red",
-        borderRadius: "20px",
+        borderRadius: "4px",
       }}
     >
+      <span>main decorator</span>
+      <br />
       <Story />
     </div>
   );
