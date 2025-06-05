@@ -9,11 +9,15 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build-style-dictionary": "style-dictionary build"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "style-dictionary": "^5.0.0",
+    "style-dictionary-utils": "^4.0.5"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "4",

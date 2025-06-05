@@ -1,0 +1,10 @@
+{
+  "spacing": {
+    "sm": {
+      "value": "10px"
+    },
+    "large": {
+      "value": "20px"
+    }
+  }
+}
